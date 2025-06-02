@@ -20,7 +20,7 @@ toggleBtn.addEventListener('click', () => {
         const newElement = document.createElement('p');
         newElement.id = 'added-element';
         newElement.textContent = 'This element was added dynamically!';
-        newElement.style.color = 'blue';
+        newElement.style.color = 'purple';
         newElement.style.fontStyle = 'italic';
         container.appendChild(newElement);
         elementAdded = true;
